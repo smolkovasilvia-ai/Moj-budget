@@ -1,0 +1,10 @@
+{
+  "name":"Môj Budget",
+  "short_name":"Budget",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f5f6fa",
+  "theme_color":"#111827",
+  "lang":"sk",
+  "icons":[]
+}
