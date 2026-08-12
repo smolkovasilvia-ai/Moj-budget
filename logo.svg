@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Work Bitch crowned piggy bank">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7c3d5"/><stop offset="1" stop-color="#d86f99"/></linearGradient>
+    <linearGradient id="pig" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f8edf2"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0a7"/><stop offset=".45" stop-color="#e8b83d"/><stop offset="1" stop-color="#b97a13"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#7d2748" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="410" cy="105" r="16" fill="#fff" opacity=".22"/><circle cx="94" cy="116" r="11" fill="#fff" opacity=".18"/>
+  <g filter="url(#shadow)">
+    <path d="M114 293c0-90 76-151 177-151 92 0 166 51 179 128 4 24 1 52-11 75-15 29-39 47-70 55v34c0 14-11 25-25 25h-34c-14 0-25-11-25-25v-23H204v23c0 14-11 25-25 25h-34c-14 0-25-11-25-25v-47c-27-23-43-54-43-94z" fill="url(#pig)"/>
+    <path d="M143 205l12-61 62 42" fill="#fff" stroke="#f1dce5" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M333 170l36-48 31 71" fill="#fff" stroke="#f1dce5" stroke-width="8" stroke-linejoin="round"/>
+    <ellipse cx="405" cy="278" rx="68" ry="54" fill="#f9e3eb"/>
+    <ellipse cx="388" cy="280" rx="9" ry="14" fill="#c9678b"/><ellipse cx="426" cy="280" rx="9" ry="14" fill="#c9678b"/>
+    <path d="M342 235c16-20 35-20 51 0" fill="none" stroke="#44343c" stroke-width="11" stroke-linecap="round"/>
+    <path d="M89 285c-34 1-48-35-25-54 19-16 44 0 33 19-7 12-26 6-24-6" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+    <rect x="235" y="148" width="95" height="15" rx="8" fill="#c56a8b" opacity=".65"/>
+    <g transform="translate(215 63)">
+      <path d="M7 73L0 13l43 31L77 0l35 44 45-31-10 60z" fill="url(#gold)" stroke="#9e6710" stroke-width="5" stroke-linejoin="round"/>
+      <rect x="8" y="70" width="139" height="27" rx="10" fill="url(#gold)" stroke="#9e6710" stroke-width="5"/>
+      <circle cx="1" cy="12" r="9" fill="#fff0a7"/><circle cx="77" cy="0" r="10" fill="#fff0a7"/><circle cx="158" cy="12" r="9" fill="#fff0a7"/>
+    </g>
+  </g>
+</svg>
