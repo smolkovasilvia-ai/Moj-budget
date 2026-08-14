@@ -1,20 +1,20 @@
-WORK BITCH v15 FINAL — TRAVEL HUB
+MAMI, NUDÍM SA! — HRY VERZIA 3
 
-Nahraj všetkých 7 súborov priamo do koreňa GitHub repozitára a nahraď nimi staré.
+Táto verzia nahrádza generickú databázu 700 aktivít novou databázou 700 hotových hier.
+Presne 100 hier pre každý vek 2–8 rokov.
 
-Novinky v15:
-- Travel Hub: aktívne, plánované a archivované výlety
-- aktívny Travel Mode sa ovláda cez ✈️ pill vpravo hore
-- upravenie, ukončenie, reaktivácia a bezpečné vymazanie výletu
-- archivované výlety sú defaultne iba na čítanie
-- všetky travel výdavky sa dajú znovu otvoriť, upraviť a uložiť
-- tvoje travel výdavky sa obojsmerne synchronizujú s bežným budgetom
-- partnerove travel výdavky nikdy nevstupujú do tvojho budgetu
-- nové grafické vyrovnanie spoločných výdavkov Ty vs. Partner
-- svetlozelený stĺpec = menej zaplatené, svetločervený = viac zaplatené
-- presné sumy, rozdiel, 50:50 podiel a finálna suma na vyrovnanie
-- prepínač Spoločné / Všetky travel výdavky
-- Travel Wrapped a Travel Excel/PDF report
-- Travel tagy sa pri archivácii prestanú ponúkať pri novom výdavku, história zostáva
+Každá hra obsahuje:
+- konkrétne pomôcky
+- presnú prípravu
+- vetu, ktorú má rodič povedať dieťaťu
+- minimálne 3 konkrétne kroky
+- jasné finále
+- pripravené pokračovanie „Chce ešte?“
+- jednoduchšiu a náročnejšiu verziu
+- bezpečnostnú poznámku
+- metadáta pre smart filtre appky
 
-Dáta ostávajú v rovnakom localStorage (mb-v8). Existujúce travel dáta sa pri načítaní migrujú.
+Nasadenie na GitHub Pages:
+Nahraj OBSAH tohto priečinka do rootu repozitára. index.html musí byť priamo v root priečinku.
+
+Dáta sa ukladajú lokálne v prehliadači.

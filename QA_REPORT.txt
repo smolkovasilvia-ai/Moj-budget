@@ -1,0 +1,27 @@
+MAMI, NUDÍM SA! — HRY VERZIA 3 / QA
+
+PASS — 700 hier celkovo
+PASS — presne 100 hier pre každý vek 2,3,4,5,6,7,8
+PASS — 700 unikátnych ID
+PASS — 100 unikátnych názvov v každej vekovej skupine; mechaniky sú rozdelené do 20 obsahových typov
+PASS — 100 unikátnych názvov v každej vekovej skupine
+PASS — každá hra má konkrétne materials/setup/say/steps/finale/encore/easier/harder/why/safety
+PASS — každá hra má minimálne 3 konkrétne kroky
+PASS — zakázané generické frázy zo starej databázy sa nevyskytujú
+PASS — appka používa window.ACTIVITIES_V3
+PASS — index načítava data-v3.js
+PASS — service worker cachuje data-v3.js
+
+Vekové počty: {2: 100, 3: 100, 4: 100, 5: 100, 6: 100, 7: 100, 8: 100}
+
+Poznámka: automatické QA kontroluje štruktúru, dátovú integritu a technické väzby. Obsah bol navrhnutý po vekových skupinách s odlišnými mechanikami; rodič dostáva presný štart, priebeh aj koniec hry.
+
+DODATOČNÉ TECHNICKÉ TESTY
+PASS — node --check app-v3.js
+PASS — node --check data-v3.js
+PASS — UI väzby: activitySetup/activitySay/activitySteps/activityFinale/activityEncore
+PASS — HTTP 200: index.html, styles.css, app-v3.js, data-v3.js, manifest, service worker, ikona
+PASS — 100 unikátnych názvov v každej vekovej skupine
+PASS — 50 hier bez prípravy v každej vekovej skupine
+
+Dôležité: automatické testy nevedia nahradiť reálne hranie s deťmi. Pred komerčným vydaním je vhodný pilot s rodičmi a deťmi v každom veku a následné vyradenie hier, ktoré v praxi nefungujú.
